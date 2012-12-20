@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Epub Tutorial: minimal</dc:title>
+        <dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+        <dc:identifier id="dcidid" opf:scheme="URI">
+            http://www.hxa7241.org/articles/content/epup-guide_hxa7241_2007_2.epub
+        </dc:identifier>
+        <dc:subject>
+            Non-fiction, technical article, tutorial, Epub, IDPF, ebook
+        </dc:subject>
+        <dc:description>
+            A very minimal epub file.
+        </dc:description>
+        <dc:relation>https://github.com/r-gaia-cs/epub_tutorial/</dc:relation>
+        <dc:creator>Raniere Silva</dc:creator>
+        <dc:publisher>Raniere Silva</dc:publisher>
+        <dc:date xsi:type="dcterms:W3CDTF">2012-12-20</dc:date>
+        <dc:rights>Creative Commons BY-SA 3.0 License.</dc:rights>
+    </metadata>
+
+    <manifest>
+        <item id="ncx"      href="toc.ncx"       media-type="application/x-dtbncx+xml" />
+        <item id="text" href="text.html" media-type="application/xhtml+xml" />
+    </manifest>
+
+    <spine toc="ncx">
+        <itemref idref="contents" />
+    </spine>
+</package>
