@@ -25,28 +25,14 @@ For more information you can visit [2].
 GNU/Linux
 ---------
 
--------- ---- ---- ----- -----
+======== ==== ==== ===== =====
 Software Text Math Audio Video
--------- ---- ---- ----- -----
+======== ==== ==== ===== =====
 Calibre
 FBReader
 Okular
 Sigil
--------- ---- ---- ----- -----
-
-Firefox Addons
---------------
-
--------- ---- ---- ----- -----
-Addon    Text Math Audio Video
--------- ---- ---- ----- -----
-
-Android App
------------
-
--------- ---- ---- ----- -----
-App      Text Math Audio Video
--------- ---- ---- ----- -----
+======== ==== ==== ===== =====
 
 Folders descriptions
 ====================
@@ -69,6 +55,30 @@ The porpouse of this examples is show the files
 * `container.xml`,
 * `content.opf`,
 * `toc.ncx`.
+
+small
+-----
+
+This is a small example showing the text of the public domain "A bruxa e o
+Caldeirão" from José Leon Machado.
+
+The porpouse of this file is show a very small html example.
+
+pictures
+--------
+
+This is a small example showing the text of the public domain "A bruxa e o
+Caldeirão" from José Leon Machado.
+
+The porpouse of this file is show the use of images.
+
+pages
+-----
+
+This is a small example showing the text of the public domain "A bruxa e o
+Caldeirão" from José Leon Machado.
+
+The porpouse of this file is show the page break.
 
 Other sources
 =============

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Epub Tutorial: pictures</dc:title>
+        <dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+        <dc:identifier id="dcidid" opf:scheme="URI">
+            http://www.hxa7241.org/articles/content/epup-guide_hxa7241_2007_2.epub
+        </dc:identifier>
+        <dc:subject>
+            Non-fiction, technical article, tutorial, Epub, IDPF, ebook
+        </dc:subject>
+        <dc:description>
+            A small epub file with pictures.
+        </dc:description>
+        <dc:relation>https://github.com/r-gaia-cs/epub_tutorial/</dc:relation>
+        <dc:creator>Raniere Silva</dc:creator>
+        <dc:publisher>Raniere Silva</dc:publisher>
+        <dc:date xsi:type="dcterms:W3CDTF">2012-12-20</dc:date>
+        <dc:rights>Creative Commons BY-SA 3.0 License.</dc:rights>
+    </metadata>
+
+    <manifest>
+        <item id="ncx"      href="toc.ncx"       media-type="application/x-dtbncx+xml" />
+        <item id="p00" href="p00.html" media-type="application/xhtml+xml" />
+        <item id="p01" href="p01.html" media-type="application/xhtml+xml" />
+        <item id="p02" href="p02.html" media-type="application/xhtml+xml" />
+        <item id="p03" href="p03.html" media-type="application/xhtml+xml" />
+        <item id="p04" href="p04.html" media-type="application/xhtml+xml" />
+        <item id="p05" href="p05.html" media-type="application/xhtml+xml" />
+        <item id="p06" href="p06.html" media-type="application/xhtml+xml" />
+        <item id="p07" href="p07.html" media-type="application/xhtml+xml" />
+        <item id="p08" href="p08.html" media-type="application/xhtml+xml" />
+    </manifest>
+
+    <spine toc="ncx">
+        <itemref idref="p00" />
+        <itemref idref="p01" />
+        <itemref idref="p02" />
+        <itemref idref="p03" />
+        <itemref idref="p04" />
+        <itemref idref="p05" />
+        <itemref idref="p06" />
+        <itemref idref="p07" />
+        <itemref idref="p08" />
+    </spine>
+</package>

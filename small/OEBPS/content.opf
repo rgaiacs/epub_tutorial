@@ -4,7 +4,7 @@
             xmlns:dcterms="http://purl.org/dc/terms/"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xmlns:opf="http://www.idpf.org/2007/opf">
-        <dc:title>Epub Tutorial: minimal</dc:title>
+        <dc:title>Epub Tutorial: small</dc:title>
         <dc:language xsi:type="dcterms:RFC3066">en</dc:language>
         <dc:identifier id="dcidid" opf:scheme="URI">
             http://www.hxa7241.org/articles/content/epup-guide_hxa7241_2007_2.epub
@@ -13,7 +13,7 @@
             Non-fiction, technical article, tutorial, Epub, IDPF, ebook
         </dc:subject>
         <dc:description>
-            A very minimal epub file.
+            A small epub file.
         </dc:description>
         <dc:relation>https://github.com/r-gaia-cs/epub_tutorial/</dc:relation>
         <dc:creator>Raniere Silva</dc:creator>
@@ -28,6 +28,6 @@
     </manifest>
 
     <spine toc="ncx">
-        <itemref idref="contents" />
+        <itemref idref="text" />
     </spine>
 </package>
