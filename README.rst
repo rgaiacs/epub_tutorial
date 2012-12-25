@@ -6,11 +6,16 @@ For the specification about the epub format visit http://idpf.org/epub.
 About this repository
 =====================
 
-Each folder in this repository is the files that form one epub book. To get
+Each folder in this repository contain the files that form one epub book. To get
 the epub file for any one of the folders you must do
 
-    $ zip -X0D folder_name.epub folder_name/mimetype && zip -Xur9D
-folder_name.epub folder_name/*
+    $ make folder_name.epub
+
+if you have GNU Make installed. Otherwise, you must do
+
+    $ cd folder_name
+    $ zip -X0D ../folder_name.epub mimetype
+    $ zip -Xur0D ../folder_name.epub *
 
 Readers support
 ===============
@@ -25,14 +30,16 @@ For more information you can visit [2].
 GNU/Linux
 ---------
 
-======== ==== ==== ===== =====
-Software Text Math Audio Video
-======== ==== ==== ===== =====
+======== ==== ==== ===== ===== =====
+Software Text Math Image Audio Video
+======== ==== ==== ===== ===== =====
 Calibre
-FBReader
-Okular
+FBReader OK        OK
+Okular*
 Sigil
-======== ==== ==== ===== =====
+======== ==== ==== ===== ===== =====
+
+* You will need Okular >= 0.7, KDE >= 4.1 and Libepub.
 
 Folders descriptions
 ====================
@@ -83,7 +90,7 @@ The porpouse of this file is show the page break.
 Other sources
 =============
 
-[1] http://www.hxa.name/articles/content/epub-guide_hxa7241_2007.html
-[2] http://www.jedisaber.com/eBooks/Readers.shtml
-[3] http://www.jedisaber.com/eBooks/formatsource.shtml
-[4] https://sites.google.com/site/spontaneousderivation/an-epub-tutorial
+.. [1] http://www.hxa.name/articles/content/epub-guide_hxa7241_2007.html
+.. [2] http://www.jedisaber.com/eBooks/Readers.shtml
+.. [3] http://www.jedisaber.com/eBooks/formatsource.shtml
+.. [4] https://sites.google.com/site/spontaneousderivation/an-epub-tutorial
