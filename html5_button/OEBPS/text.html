@@ -1,0 +1,18 @@
+<html>
+    <meta>
+        <script>
+            function displayDate(){
+                document.getElementById("date").innerHTML=Date();
+            }
+        </script>
+    </meta>
+    <body>
+        <p>This is the very minimal EPUB example and based in <a
+            href="http://www.w3schools.com/js/tryit.asp?filename=tryjs_events">http://www.w3schools.com/js/tryit.asp?filename=tryjs_events</a>.</p>
+        <p>Below this line you must see a button:</p>
+        <button type="button"  onclick="displayDate()">Click Me!</button> 
+        <p id='date'></p>
+        <p>If after you press the button you don't see the current date above
+        than your epub reader don't support javascript.</p>
+    </body>
+</html>
